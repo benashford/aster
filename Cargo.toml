@@ -11,7 +11,7 @@ with-syntex = ["syntex_syntax"]
 unstable-testing = ["clippy", "compiletest_rs"]
 
 [dependencies]
-syntex_syntax = { version = "^0.29.0", optional = true }
+syntex_syntax = { git = "https://github.com/benashford/syntex" , optional = true }
 clippy = { version = "0.*", optional = true }
 compiletest_rs = { version = "^0.0.11", optional = true }
 
